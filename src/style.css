@@ -1,1 +1,43 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: green;
+  margin: 0;
+  padding: 0;
+  font-size: 140px;
+  font-family: serif, Times, "Times New Roman";
+}
+
+.card {
+  margin: 100px auto;
+  padding: 10px;
+  width: 400px;
+  height: 550px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.card span:first-child {
+  align-self: flex-start;
+  font-size: 90px;
+}
+.card span:nth-child(3) {
+  align-self: flex-end;
+  font-size: 90px;
+}
+
+.spade {
+  color: black;
+}
+.club {
+  color: black;
+}
+.heart {
+  color: red;
+}
+.diamond {
+  color: red;
+}
